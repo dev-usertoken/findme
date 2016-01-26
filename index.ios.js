@@ -20,6 +20,7 @@ var AppEntry = React.createClass({
         style={styles.container}
         itemWrapperStyle={styles.allPages}
         initialRoute={{
+          title: 'Map',
           component: MapGl,
         }}
       />
