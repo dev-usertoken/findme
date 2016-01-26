@@ -32,7 +32,7 @@
    * on the same Wi-Fi network.
    */
 
-  jsCodeLocation = [NSURL URLWithString:@"http://dev.pointlook.com/index.ios.bundle?platform=ios&dev=true"];
+  jsCodeLocation = [NSURL URLWithString:@"https://dev.pointlook.com/index.ios.bundle?platform=ios&dev=true"];
 
   /**
    * OPTION 2

@@ -20,7 +20,7 @@ var AppEntry = React.createClass({
         itemWrapperStyle={styles.allPages}
         initialRoute={{
           title: 'Login',
-          component: Login,
+          component: LoginMock,
         }}
       />
     );
