@@ -182,7 +182,8 @@ var MapGL = React.createClass({
 var styles = StyleSheet.create({
   container: {
     flex: 1
-  }
+  },
+  style: 'mapbox://styles/mapbox/streets-v8'
 });
 
 module.exports = MapGL;
