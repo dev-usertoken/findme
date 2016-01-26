@@ -1,4 +1,8 @@
-npm install --save react-native-facebook-login
-npm install --save react-native-mapbox-gl
-npm install --save  mapbox-gl-styles
+#npm install --save react-native-facebook-login
+#npm install --save react-native-mapbox-gl
+npm uninstall --save  mapbox-gl-styles
+npm uninstall --save  fs
+npm uninstall --save  path
+npm uninstall --save  events
+npm uninstall --save  assert
 npm start
