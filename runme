@@ -1,2 +1,3 @@
 npm install --save react-native-facebook-login
+npm install --save react-native-mapbox-gl
 npm start

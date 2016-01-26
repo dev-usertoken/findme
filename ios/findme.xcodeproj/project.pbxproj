@@ -25,6 +25,18 @@
 		19B472E21C579182000292A2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B472DE1C579182000292A2 /* FBSDKCoreKit.framework */; };
 		19B472E31C579182000292A2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B472DF1C579182000292A2 /* FBSDKLoginKit.framework */; };
 		19B472E41C579182000292A2 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B472E01C579182000292A2 /* FBSDKShareKit.framework */; };
+		19B473301C57B2F3000292A2 /* libRCTMapboxGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473271C57B294000292A2 /* libRCTMapboxGL.a */; };
+		19B473321C57B395000292A2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19B473311C57B394000292A2 /* Settings.bundle */; };
+		19B473341C57B403000292A2 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19B473331C57B403000292A2 /* Mapbox.bundle */; };
+		19B473361C57B446000292A2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473351C57B446000292A2 /* CoreTelephony.framework */; };
+		19B473381C57B453000292A2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473371C57B453000292A2 /* GLKit.framework */; };
+		19B4733A1C57B460000292A2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473391C57B460000292A2 /* ImageIO.framework */; };
+		19B4733C1C57B486000292A2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B4733B1C57B486000292A2 /* MobileCoreServices.framework */; };
+		19B4733E1C57B493000292A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B4733D1C57B493000292A2 /* QuartzCore.framework */; };
+		19B473401C57B4A1000292A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B4733F1C57B4A1000292A2 /* SystemConfiguration.framework */; };
+		19B473421C57B4B3000292A2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473411C57B4B3000292A2 /* libc++.tbd */; };
+		19B473441C57B4C1000292A2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473431C57B4C1000292A2 /* libsqlite3.tbd */; };
+		19B473461C57B4CF000292A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B473451C57B4CF000292A2 /* libz.tbd */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +111,20 @@
 			remoteGlobalIDString = 4F3A6B5B1ACFBCC500CA65F7;
 			remoteInfo = RCTFBLogin;
 		};
+		19B473261C57B294000292A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B4731C1C57B293000292A2 /* RCTMapboxGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5DBB3401AF2EF2B00E611A9;
+			remoteInfo = RCTMapboxGL;
+		};
+		19B473281C57B294000292A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B4731C1C57B293000292A2 /* RCTMapboxGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5DBB34B1AF2EF2B00E611A9;
+			remoteInfo = RCTMapboxGLTests;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -139,6 +165,18 @@
 		19B472DE1C579182000292A2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../../../../Volumes/ALEX2006HW/Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		19B472DF1C579182000292A2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../../../../Volumes/ALEX2006HW/Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		19B472E01C579182000292A2 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../../../../Volumes/ALEX2006HW/Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		19B4731C1C57B293000292A2 /* RCTMapboxGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTMapboxGL.xcodeproj; path = "../node_modules/react-native-mapbox-gl/ios/RCTMapboxGL.xcodeproj"; sourceTree = "<group>"; };
+		19B473311C57B394000292A2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		19B473331C57B403000292A2 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Mapbox.bundle; sourceTree = "<group>"; };
+		19B473351C57B446000292A2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		19B473371C57B453000292A2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		19B473391C57B460000292A2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		19B4733B1C57B486000292A2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		19B4733D1C57B493000292A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		19B4733F1C57B4A1000292A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		19B473411C57B4B3000292A2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		19B473431C57B4C1000292A2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		19B473451C57B4CF000292A2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +193,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B473461C57B4CF000292A2 /* libz.tbd in Frameworks */,
+				19B473441C57B4C1000292A2 /* libsqlite3.tbd in Frameworks */,
+				19B473421C57B4B3000292A2 /* libc++.tbd in Frameworks */,
+				19B473401C57B4A1000292A2 /* SystemConfiguration.framework in Frameworks */,
+				19B4733E1C57B493000292A2 /* QuartzCore.framework in Frameworks */,
+				19B4733C1C57B486000292A2 /* MobileCoreServices.framework in Frameworks */,
+				19B4733A1C57B460000292A2 /* ImageIO.framework in Frameworks */,
+				19B473381C57B453000292A2 /* GLKit.framework in Frameworks */,
+				19B473361C57B446000292A2 /* CoreTelephony.framework in Frameworks */,
+				19B473301C57B2F3000292A2 /* libRCTMapboxGL.a in Frameworks */,
 				19B472DB1C579000000292A2 /* libRCTFBLogin.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				19B472E41C579182000292A2 /* FBSDKShareKit.framework in Frameworks */,
@@ -288,6 +336,15 @@
 			name = Fameworks;
 			sourceTree = "<group>";
 		};
+		19B4731D1C57B293000292A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B473271C57B294000292A2 /* libRCTMapboxGL.a */,
+				19B473291C57B294000292A2 /* RCTMapboxGLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +356,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				19B4731C1C57B293000292A2 /* RCTMapboxGL.xcodeproj */,
 				19B472D51C578FE5000292A2 /* RCTFBLogin.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -325,6 +383,17 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				19B473451C57B4CF000292A2 /* libz.tbd */,
+				19B473431C57B4C1000292A2 /* libsqlite3.tbd */,
+				19B473411C57B4B3000292A2 /* libc++.tbd */,
+				19B4733F1C57B4A1000292A2 /* SystemConfiguration.framework */,
+				19B4733D1C57B493000292A2 /* QuartzCore.framework */,
+				19B4733B1C57B486000292A2 /* MobileCoreServices.framework */,
+				19B473391C57B460000292A2 /* ImageIO.framework */,
+				19B473371C57B453000292A2 /* GLKit.framework */,
+				19B473351C57B446000292A2 /* CoreTelephony.framework */,
+				19B473331C57B403000292A2 /* Mapbox.bundle */,
+				19B473311C57B394000292A2 /* Settings.bundle */,
 				19B472DC1C579155000292A2 /* Fameworks */,
 				13B07FAE1A68108700A75B9A /* findme */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -434,6 +503,10 @@
 					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
 				},
 				{
+					ProductGroup = 19B4731D1C57B293000292A2 /* Products */;
+					ProjectRef = 19B4731C1C57B293000292A2 /* RCTMapboxGL.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
 					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
 				},
@@ -530,6 +603,20 @@
 			remoteRef = 19B472D91C578FE5000292A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		19B473271C57B294000292A2 /* libRCTMapboxGL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTMapboxGL.a;
+			remoteRef = 19B473261C57B294000292A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19B473291C57B294000292A2 /* RCTMapboxGLTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RCTMapboxGLTests.xctest;
+			remoteRef = 19B473281C57B294000292A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -558,6 +645,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B473341C57B403000292A2 /* Mapbox.bundle in Resources */,
+				19B473321C57B395000292A2 /* Settings.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);

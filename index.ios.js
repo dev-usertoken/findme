@@ -11,6 +11,7 @@ var {
 
 var Login = require('./components/Login');
 var LoginMock = require('./components/LoginMock');
+var MapGl = require('./components/MapGl');
 
 var AppEntry = React.createClass({
   render: function() {
@@ -19,8 +20,8 @@ var AppEntry = React.createClass({
         style={styles.container}
         itemWrapperStyle={styles.allPages}
         initialRoute={{
-          title: 'Login',
-          component: LoginMock,
+          title: 'Map',
+          component: MapGl,
         }}
       />
     );
